@@ -1,26 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-	<OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
-	<UseWindowsForms>true</UseWindowsForms>
-	<EnableWindowsTargeting>true</EnableWindowsTargeting>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-	<SelfContained>false</SelfContained>
-	<PublishSingleFile>true</PublishSingleFile>
-	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
-	<Version>1.0.0</Version>
-	<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
-	<ApplicationIcon>icon.ico</ApplicationIcon>
-	<AssemblyTitle>Full Room Sniper</AssemblyTitle>
-	<Description>Monitors capacity and attempts to enter full rooms</Description>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<EnableWindowsTargeting>true</EnableWindowsTargeting>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<SelfContained>false</SelfContained>
+		<PublishSingleFile>true</PublishSingleFile>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<Version>1.0.1</Version>
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+		<ApplicationIcon>UI/icon.ico</ApplicationIcon>
+		<AssemblyTitle>Full Room Sniper</AssemblyTitle>
+		<Description>Monitors capacity and attempts to enter full rooms</Description>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Xabbo.Common" Version="1.0.4" />
-    <PackageReference Include="Xabbo.GEarth" Version="1.0.1" />
-    <PackageReference Include="Xabbo.Messages" Version="1.0.2" />
-  </ItemGroup>
+	<ItemGroup>
+		<Resource Include="UI\icon.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Xabbo.Common" Version="1.0.4" />
+		<PackageReference Include="Xabbo.GEarth" Version="1.0.1" />
+		<PackageReference Include="Xabbo.Messages" Version="1.0.2" />
+	</ItemGroup>
 
 </Project>
