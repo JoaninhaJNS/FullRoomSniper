@@ -1,3 +1,6 @@
+> [!WARNING]
+> This extension is outdated, use [**this**](https://qxscripter.xyz/s/uzpa3keqq9c0) instead.
+
 ## Full Room Sniper
 
 G-Earth extension to monitor room capacity and attempt to enter full rooms.
